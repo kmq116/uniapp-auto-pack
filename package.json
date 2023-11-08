@@ -4,7 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "zx scripts/build.mjs",
+    "prebuild:安装包1": "zx scripts/pre-build.mjs 安装包1",
+    "prebuild:安装包2": "zx scripts/pre-build.mjs 安装包2",
+    "prebuild:安装包3": "zx scripts/pre-build.mjs 安装包3",
+    "prebuild:安装包4": "zx scripts/pre-build.mjs 安装包4",
+    "prebuild:安装包5": "zx scripts/pre-build.mjs 安装包5",
+    "vchange": "zx ./scripts/versionChange.mjs",
+    "vupdate": "zx ./scripts/versionUpdate.mjs"
   },
   "repository": {
     "type": "git",
