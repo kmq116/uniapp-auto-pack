@@ -1,0 +1,34 @@
+{
+  "project": "uniapp-auto-pack",
+  "platform": "android",
+  "iscustom": false,
+  "safemode": false,
+  //android打包参数
+  "android": {
+    //安卓包名
+    "packagename": "uni.UNI37B5E07",
+    //安卓打包类型 默认值0 0 使用自有证书 1 使用公共证书 2 使用老版证书
+    "androidpacktype": "0",
+    //安卓使用自有证书自有打包证书参数
+    //安卓打包证书别名,自有证书打包填写的参数
+    "certalias": "test",
+    //安卓打包证书文件路径,自有证书打包填写的参数
+    "certfile": "C:\\Users\\打包配置\\UNI37B5E07.keystore",
+    //安卓打包证书密码,自有证书打包填写的参数
+    "certpassword": "123456",
+    //安卓平台要打的渠道包 取值有"google","yyb","360","huawei","xiaomi","oppo","vivo"，如果要打多个逗号隔开
+    "channels": ""
+  },
+  "ios": {
+    "bundle": "com.test.ios",
+    "supporteddevice": "iPhone,iPad",
+    "profile": "",
+    "certfile": "",
+    "certpassword": "123"
+  },
+  "isconfusion": false,
+  "splashads": false,
+  "rpads": false,
+  "pushads": false,
+  "exchange": false
+}
