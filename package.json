@@ -11,7 +11,8 @@
     "prebuild:安装包4": "zx scripts/pre-build.mjs 安装包4",
     "prebuild:安装包5": "zx scripts/pre-build.mjs 安装包5",
     "vchange": "zx ./scripts/versionChange.mjs",
-    "vupdate": "zx ./scripts/versionUpdate.mjs"
+    "vupdate": "zx ./scripts/versionUpdate.mjs",
+    "pack": "zx ./scripts/pack.mjs"
   },
   "repository": {
     "type": "git",
